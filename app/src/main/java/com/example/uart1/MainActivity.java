@@ -238,7 +238,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View arg0) {
                 //保存配置
-                save("baudRate="+baudRate);
+//                save("baudRate="+baudRate);
                 Toast.makeText(MainActivity.this, "保存成功!",
                         Toast.LENGTH_SHORT).show();
 
