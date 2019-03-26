@@ -237,10 +237,10 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View arg0) {
-//                //保存配置
-//                save("baudRate="+baudRate);
-//                Toast.makeText(MainActivity.this, "保存成功!",
-//                        Toast.LENGTH_SHORT).show();
+                //保存配置
+                save("baudRate="+baudRate);
+                Toast.makeText(MainActivity.this, "保存成功!",
+                        Toast.LENGTH_SHORT).show();
 
                 if (MyApp.driver.SetConfig(baudRate, dataBit, stopBit, parity,//配置串口波特率，函数说明可参照编程手册
                         flowControl)) {
